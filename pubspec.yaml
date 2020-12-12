@@ -1,0 +1,68 @@
+name: pro_health
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <8.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.0
+  adobe_xd: ^1.0.0+1
+  flutter_svg: ^0.17.0
+  flutter_screenutil: ^0.4.2
+  smooth_star_rating: ^1.1.1
+  intl: ^0.16.0
+  flutter_launcher_icons: ^0.7.3
+  flutter_launcher_name: ^0.0.1
+  convex_bottom_bar: ^2.6.0
+  scrolling_page_indicator: ^0.1.2
+  icon_badge: ^0.0.1+5
+  otp_screen: ^0.0.3
+  smooth_page_indicator: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/otp.png
+    - assets/doctors.png
+    - assets/drugs.png
+    - assets/appointment.png
+    - assets/adoctor.png
+    - assets/apatient.png
+    - assets/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito.ttf
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 600
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter_launcher_name:
+  name: "Pro Health"
